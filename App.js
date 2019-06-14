@@ -12,7 +12,7 @@ export default class App extends Component {
         .then(supported => {
           this.setState({ supported });
           if (supported) {
-            this._startNfc();
+            // this._startNfc();
           }
         })
   }
